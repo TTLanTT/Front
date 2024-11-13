@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    background-color: #db9c9c;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Create Review Section */
+  #create-review {
+    background-color: #db9c9c;
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #create-review h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .review-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .review-form .form-group {
+    text-align: left;
+  }
+  
+  .review-form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .review-form input[type="text"],
+  .review-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .review-form .rating-stars {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .review-form input[type="radio"] {
+    display: none;
+  }
+  
+  .review-form label {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .review-form input[type="radio"]:checked + label {
+    color: #e67e22;
+  }
+  
+  .review-form textarea {
+    resize: none;
+  }
+  
+  .review-form .btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+  }
+  
+  .review-form .btn:hover {
+    background-color: green;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #db9c9c;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }

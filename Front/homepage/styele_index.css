@@ -1,0 +1,115 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    background-color: #db9c9c;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('img_cabecalho.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content .btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  .hero-content .btn:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Services Section */
+  #services {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #f0f0f0;
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #db9c9c;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }

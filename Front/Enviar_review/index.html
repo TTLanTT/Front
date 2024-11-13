@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make4u - Criar Review</title>
+  <link rel="stylesheet" href="styles_send.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Categorias</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="profile.html">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Create Review Section -->
+  <section id="create-review">
+    <h2>Criar Avaliação</h2>
+    <form action="#" method="POST" class="review-form">
+      <div class="form-group">
+        <label for="product-name">Nome do Produto</label>
+        <input type="text" id="product-name" name="product-name" placeholder="Digite o nome do produto" required>
+      </div>
+
+      <div class="form-group">
+        <label for="rating">Avaliação (de 1 a 5)</label>
+        <div class="rating-stars">
+          <input type="radio" id="star5" name="rating" value="5" required><label for="star5">⭐</label>
+          <input type="radio" id="star4" name="rating" value="4"><label for="star4">⭐</label>
+          <input type="radio" id="star3" name="rating" value="3"><label for="star3">⭐</label>
+          <input type="radio" id="star2" name="rating" value="2"><label for="star2">⭐</label>
+          <input type="radio" id="star1" name="rating" value="1"><label for="star1">⭐</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="review-comment">Comentário</label>
+        <textarea id="review-comment" name="review-comment" placeholder="Escreva sua avaliação" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Enviar Avaliação</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Make4u. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
